@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+  <suppress>
+    <notes><![CDATA[
+   file name: faye-websocket:0.10.0
+   ]]></notes>
+    <packageUrl regex="true">^pkg:npm/faye\-websocket@.*$</packageUrl>
+    <cpe>cpe:/a:faye-websocket_project:faye-websocket</cpe>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
+   file name: faye-websocket:0.10.0
+   ]]></notes>
+    <packageUrl regex="true">^pkg:npm/faye\-websocket@.*$</packageUrl>
+    <cve>CVE-2020-15133</cve>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
+   file name: immer:7.0.9
+   ]]></notes>
+    <packageUrl regex="true">^pkg:npm/immer@.*$</packageUrl>
+    <cpe>cpe:/a:immer_project:immer</cpe>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
+   file name: immer:7.0.9
+   ]]></notes>
+    <packageUrl regex="true">^pkg:npm/immer@.*$</packageUrl>
+    <cve>CVE-2020-28477</cve>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
+   file name: node-notifier:8.0.0
+   ]]></notes>
+    <packageUrl regex="true">^pkg:npm/node\-notifier@.*$</packageUrl>
+    <cpe>cpe:/a:node-notifier_project:node-notifier</cpe>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
+   file name: node-notifier:8.0.0
+   ]]></notes>
+    <packageUrl regex="true">^pkg:npm/node\-notifier@.*$</packageUrl>
+    <cve>CVE-2020-7789</cve>
+  </suppress>
+</suppressions>
