@@ -6,7 +6,7 @@ import {
   Route
 } from "react-router-dom";
 
-function App() {
+function App(props) {
   return (
     <Router>
       <div className="App">
@@ -18,10 +18,16 @@ function App() {
               <p>
                 <a href="/" className="App-link">Back to index</a>
               </p>
+              <p>
+                <label onClick={props.auth.logout} className="App-link">Logout</label>
+              </p>
             </Route>
             <Route path="/">
               <p>
                 <a href="/hello" className="App-link">Go to Hello World</a>
+              </p>
+              <p>
+                <label onClick={props.auth.logout} className="App-link">Logout</label>
               </p>
             </Route>
           </Switch>
