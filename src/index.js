@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 const keycloak = Keycloak(KeycloakOptions);
 const REFRESH_CHECK_FREQUENCY = 60;
 
+/*
 async function updateToken() {
     try {
         const refreshed = await keycloak.updateToken(REFRESH_CHECK_FREQUENCY + KeycloakOptions.updateTokenMinValidity);
@@ -47,5 +48,9 @@ keycloak.init({ onLoad: KeycloakOptions.onLoad }).then((auth) => {
 }).catch(() => {
     console.error("Authenticated Failed");
 });
+*/
+
+ReactDOM.render(<React.StrictMode><App auth={keycloak} /></React.StrictMode>, document.getElementById('root'));
+
 
 reportWebVitals();
